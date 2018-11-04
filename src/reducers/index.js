@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import { quotes } from './quote_reducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  quotes
 });
 
 export default rootReducer;
